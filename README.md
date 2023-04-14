@@ -1,2 +1,4 @@
 # BcryptBunker
-Ce script utilise la bibliothèque Python bcrypt pour hacher un mot de passe en utilisant un sel aléatoire et l'algorithme de hachage bcrypt.
+Ce script utilise la bibliothèque Python bcrypt pour hacher un mot de passe en utilisant un sel aléatoire et l'algorithme de hachage bcrypt. L'utilisateur est invité à entrer le mot de passe à hacher, puis un sel aléatoire est généré en utilisant la fonction gensalt() de bcrypt. Le mot de passe est ensuite haché en utilisant le sel et la fonction hashpw() de bcrypt, puis le sel et le mot de passe haché sont affichés à l'écran.
+
+Il est important de noter que le but de hacher les mots de passe est de protéger les données sensibles en cas d'attaque ou de violation de sécurité. Il est donc crucial d'utiliser des algorithmes de hachage forts et des sels aléatoires uniques pour chaque mot de passe afin de rendre plus difficile la récupération des mots de passe originaux à partir des hachages.
